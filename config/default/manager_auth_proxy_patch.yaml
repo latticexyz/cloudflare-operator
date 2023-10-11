@@ -13,10 +13,10 @@ spec:
         image: gcr.io/kubebuilder/kube-rbac-proxy:v0.8.0
         resources:
           limits:
-            cpu: 256m
+            cpu: 250m
             memory: 256Mi
           requests:
-            cpu: 256m
+            cpu: 250m
             memory: 256Mi
         args:
         - "--secure-listen-address=0.0.0.0:8443"
